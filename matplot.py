@@ -52,7 +52,6 @@ def scatter():
     plt.scatter(x, y, color='#88c999')
 
     plt.show()
-
 scatter()
 
 
@@ -63,6 +62,7 @@ def bar():
 
     plt.bar(x, y, color="pink")
     plt.show()
+    
 bar()
 
 
@@ -77,4 +77,5 @@ def piechart():
 
     # plt.savefig(sys.stdout.buffer)
     # sys.stdout.flush()
+    
 piechart()
